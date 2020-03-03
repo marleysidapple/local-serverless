@@ -64,3 +64,7 @@ Mutation and queries can be added and can be extended by making changes in schem
 - sls deploy
 
 The deployment will give the graphQL endpoint which frontend can consume by making use of apollo-angular or something like that. 
+
+
+## Improvement To Do
+- Put query and mutation in its own file rather than having one big file. For e.g for users, have a query and mutation related to user in one file. 
