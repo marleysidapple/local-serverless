@@ -14,7 +14,7 @@
 ## Sending POST request to GRAPHQL endpoint
 - curl -XPOST -H "Content-Type: application/json" http://localhost:3000/graphql --data '{"query": "query {todos {id, task}}"}'
 
-## Available Queries
+## Available Queries & Mutations
 - getTodoById
 - todos
 - users
