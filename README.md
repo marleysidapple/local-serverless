@@ -59,6 +59,9 @@ mutation {
 ```
 Mutation and queries can be added and can be extended by making changes in schema and resolver files. 
 
+## Screenshot
+![GraphQL Playground]("https://github.com/marleysidapple/local-serverless/blob/master/Screen%20Shot%202020-03-03%20at%2012.09.14%20pm.png?raw=true")
+
 
 ## Deploy Command 
 - sls deploy
