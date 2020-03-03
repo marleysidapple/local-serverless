@@ -1,0 +1,16 @@
+[{
+    "id": "c796d733-9779-45c5-a130-20fd1fd0b655",
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john@doe.com"
+}, {
+    "id": "43fca9c6-91f4-4593-9e5c-fac85beab5a3",
+    "firstName": "Jack",
+    "lastName": "Daniels",
+    "email": "jack@daniels.com"
+}, {
+    "id": "42828c93-afb5-4761-ba55-becfda40b13b",
+    "firstName": "Mike",
+    "lastName": "Pearson",
+    "email": "mike@pearson.com"
+}]
