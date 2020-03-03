@@ -13,13 +13,48 @@
 
 ## Sending POST request to GRAPHQL endpoint
 - curl -XPOST -H "Content-Type: application/json" http://localhost:3000/graphql --data '{"query": "query {todos {id, task}}"}'
+This command will be used for both queries and mutation
 
-## Available Queries & Mutations
+## Available Queries 
 - getTodoById
 - todos
 - users
 - getUserById 
 
+
+## Available Mutation
+- createTodo
+- createUser
+
+
+## Running Query and mutation
+
+### Query example
+
+```
+query {
+  users {
+    firstName
+    lastName
+    email
+  }
+}
+```
+
+
+### Mutation example
+
+```
+mutation {
+  createTodo(input: {
+    id: "3alsdasdl2i-3o4djksa",
+    task:"get milk",
+    isCompleted:true
+  }) {
+    task
+  }
+}
+```
 Mutation and queries can be added and can be extended by making changes in schema and resolver files. 
 
 
