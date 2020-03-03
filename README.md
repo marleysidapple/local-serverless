@@ -12,7 +12,9 @@
 - GraphQL server starts at [http://localhost:3000]
 
 ## Sending POST request to GRAPHQL endpoint
-- curl -XPOST -H "Content-Type: application/json" http://localhost:3000/graphql --data '{"query": "query {todos {id, task}}"}'
+```
+curl -XPOST -H "Content-Type: application/json" http://localhost:3000/graphql --data '{"query": "query {todos {id, task}}"}'
+```
 This command will be used for both queries and mutation
 
 ## Available Queries 
