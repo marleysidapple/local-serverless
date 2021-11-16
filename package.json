@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "apollo-server-lambda": "^2.10.1",
-    "aws-sdk": "^2.630.0",
+    "aws-sdk": "^2.814.0",
     "bluebird": "^3.7.2",
     "graphql": "^14.6.0",
     "graphql-tools": "^4.0.7",
